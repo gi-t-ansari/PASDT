@@ -2,7 +2,9 @@ import React from 'react'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div style={{ padding: "50px", textAlign: "center" }}>
+      <h1>See the world with our POV</h1>
+    </div>
   )
 }
 
