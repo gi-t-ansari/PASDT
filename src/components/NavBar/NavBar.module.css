@@ -1,0 +1,41 @@
+.navContainer {
+    width: 100%;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    box-shadow: 2.5px 2.5px 10px slategray;
+}
+
+.logoContainer {
+    height: 100%;
+    width: 50px;
+    
+}
+
+.logo {
+    width: 100%;
+    object-fit: cover;
+}
+
+.listContainer {
+    display: flex;
+    align-items: center;
+}
+
+.navList {
+    cursor: pointer;
+    margin-right: 20px;
+    list-style: none;
+    font-size: 14px;
+}
+
+.navList:last-child {
+    margin: 0;
+}
+
+.navList:hover {
+    border-bottom: 2px solid slategray;
+}
